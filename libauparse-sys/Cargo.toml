@@ -1,0 +1,8 @@
+[package]
+name = "libauparse-sys"
+version = "0.1.0"
+authors = ["John Wass <wassj@ctc.com>"]
+edition = "2018"
+
+[build-dependencies]
+bindgen = "0.45"

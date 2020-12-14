@@ -1,0 +1,14 @@
+[package]
+name = "libauparse"
+version = "0.1.0"
+authors = ["John Wass <wassj@ctc.com>"]
+edition = "2018"
+
+[dependencies]
+lazy_static = "1"
+libauparse-sys = { version = "0.1", path = "libauparse-sys" }
+
+[workspace]
+members = [
+    "libauparse-sys"
+]
